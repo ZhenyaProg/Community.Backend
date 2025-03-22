@@ -1,10 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using TodoList.DataAccess.EF;
+
 internal class Program
 {
     private static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        // Add services to the container.
+        string? connectionString = builder.Configuration.GetConnectionString(nameof(ApplicationContext));
+        builder.Services
+            .AddDbContext<ApplicationContext>(options => options.UseSqlServer(connectionString));
 
         builder.Services.AddControllers();
 
