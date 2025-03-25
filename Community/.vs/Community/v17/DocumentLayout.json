@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{84376862-0A8F-4426-B4DF-C2539A2DD225}|Community.API\\Community.API.csproj|e:\\c# projects\\community.backend\\community\\community.api\\controllers\\todoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84376862-0A8F-4426-B4DF-C2539A2DD225}|Community.API\\Community.API.csproj|solutionrelative:community.api\\controllers\\todoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84376862-0A8F-4426-B4DF-C2539A2DD225}|Community.API\\Community.API.csproj|e:\\c# projects\\community.backend\\community\\community.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84376862-0A8F-4426-B4DF-C2539A2DD225}|Community.API\\Community.API.csproj|solutionrelative:community.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 167,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,13 +34,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\C# Projects\\Community.Backend\\Community\\Community.API\\Program.cs",
+              "RelativeDocumentMoniker": "Community.API\\Program.cs",
+              "ToolTip": "E:\\C# Projects\\Community.Backend\\Community\\Community.API\\Program.cs",
+              "RelativeToolTip": "Community.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T12:10:52.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TodosController.cs",
               "DocumentMoniker": "E:\\C# Projects\\Community.Backend\\Community\\Community.API\\Controllers\\TodosController.cs",
               "RelativeDocumentMoniker": "Community.API\\Controllers\\TodosController.cs",
               "ToolTip": "E:\\C# Projects\\Community.Backend\\Community\\Community.API\\Controllers\\TodosController.cs",
               "RelativeToolTip": "Community.API\\Controllers\\TodosController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T11:39:58.147Z",
               "EditorCaption": ""
