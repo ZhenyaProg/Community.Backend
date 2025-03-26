@@ -1,3 +1,4 @@
+using Community.API.Middlewares;
 using Community.Application.DI;
 using Community.DataAccess.DI;
 
@@ -31,6 +32,8 @@ internal class Program
         app.UseHttpsRedirection();
 
         app.MapControllers();
+
+        app.UseMiddleware<ErrorHandlingMiddleware>();
 
         app.Run();
     }
